@@ -324,32 +324,32 @@ html {
 
 
 
-/* Estilo dos Links na Navegação */
+/* #region footer */
 .footer-link {
-    color: #000; /* Texto do link é preto */
-    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #000; 
+    text-decoration: none; 
     transition: color 0.3s;
-    line-height: 2.2; /* Aumenta a distância entre os links */
+    line-height: 2.2; 
     font-weight: 500;
 }
 
 .footer-link:hover {
-    color: #333; /* Fica um pouco mais escuro ao passar o mouse */
+    color: #333; 
     text-decoration: underline;
 }
 
-/* Estilo dos Ícones de Mídia Social */
 .social-icons a {
-    color: #000; /* Cor padrão dos ícones: Preto */
+    color: #000; 
     margin-right: 15px;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #fff; /* Ícones ficam brancos no hover para destaque */
+    color: #fff; 
 }
 
-/* Opcional: Estilo para informações de contato (Col. 3) */
 .footer p {
     color: #000;
 }
+
+/*#endregion*/
