@@ -4,7 +4,6 @@
             --yellow: #FFD700;
             --dark: #040404;
             --light: #f8f9fa;
-            --fundo-principal: #1a1a1a;
             --fundo-card: #ffda4b; 
             --borda-titulo: #ccc;
             --cor-texto-card: #333;
@@ -19,7 +18,7 @@ body {
             color: var(--light);
             margin: 0;
             padding: 0;
-            overflow-x: hidden; /* Evita rolagem horizontal */
+            overflow-x: hidden; /* evita rolagem horizontal */
         }
 
 /*#endregion*/
@@ -353,3 +352,4 @@ html {
 }
 
 /*#endregion*/
+
