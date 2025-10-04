@@ -107,6 +107,9 @@ body {
             color: var(--yellow);
             margin-bottom: 0.5rem;
             text-align: center;
+         span {
+                color: var(--light);
+            }
         }
 
         .hero-content p {
@@ -352,4 +355,5 @@ html {
 }
 
 /*#endregion*/
+
 
