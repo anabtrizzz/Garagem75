@@ -158,6 +158,33 @@ body {
     line-height: 1.8;
 }
 
+/* efeito nas imagens */ 
+#imgUm{
+    animation-fill-mode: forwards;
+    animation: slideInRight 0.8s ease-out 0.5s forwards; 
+}
+    #imgUm:hover {
+        transform: translateY(-8px);
+    }
+
+
+@keyframes slideInRight {
+
+        0% {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+#imgDois {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation: slideInRight 0.8s ease-out 1.0s forwards;
+}
+    
 
 /*#endregion*/ 
 
@@ -355,5 +382,6 @@ html {
 }
 
 /*#endregion*/
+
 
 
