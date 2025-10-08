@@ -391,25 +391,30 @@ html {
 }
 
 .footer-link:hover {
-    color: #333; 
+    color: var(--cor-texto-card); 
     text-decoration: underline;
 }
 
 .social-icons a {
-    color: #000; 
+    color: var(--dark); 
     margin-right: 15px;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #fff; 
+    color: var(--light); 
 }
 
 .footer p {
-    color: #000;
+    color: var(--dark);
+}
+
+.footer span {
+    color: var(--dark);
 }
 
 /*#endregion*/
+
 
 
 
