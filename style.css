@@ -107,16 +107,44 @@ body {
             color: var(--yellow);
             margin-bottom: 0.5rem;
             text-align: center;
-         span {
-                color: var(--light);
-            }
+            animation-duration: 3.5s;
+            animation-name: slidein;
+        }span {
+            color: var(--light);
         }
+              @keyframes slidein {
+                from {
+                  margin-left: 100%;
+                  width: 300%;
+                }
+              
+                to {
+                  margin-left: 0%;
+                  width: 100%;
+                }
+              }
+            
 
         .hero-content p {
             font-size: 1.25rem;
-            max-width: 600px;
-            text-align: center;
+            max-width: 600px; 
+            text-align: center; 
+            align-items: center;
+            animation-duration: 3.5s;
+            animation-name: slidein;
         }
+
+        @keyframes slidein {
+            from {
+              margin-left: 100%;
+              width: 300%;
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
 
         .btn-orcamento {
             background-color: var(--yellow);
@@ -382,6 +410,7 @@ html {
 }
 
 /*#endregion*/
+
 
 
 
