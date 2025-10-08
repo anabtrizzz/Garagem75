@@ -399,10 +399,12 @@ html {
     color: var(--dark); 
     margin-right: 15px;
     transition: color 0.3s;
+    text-decoration: none;
 }
 
 .social-icons a:hover {
     color: var(--light); 
+    text-decoration: none;
 }
 
 .footer p {
@@ -414,6 +416,7 @@ html {
 }
 
 /*#endregion*/
+
 
 
 
